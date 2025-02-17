@@ -1,15 +1,43 @@
 td, th {
 	border: 1px solid;
   }
+
+  body {
+    background-color: #201658;
+  }
+
+  h1#main {
+    text-align: center;
+    margin-bottom: -20px;
+  }
+
+  table {
+    margin: 0 auto;
+  }
+
+  table#position {
+    position: absolute;
+    top: 200px;
+  }
+
+  .highlight {
+    background-color: #1D24CA;
+    color: #98ABEE;
+  }
+
+  .pv_highlight {
+    background-color: #98ABEE;
+    color: #201658;
+  }
   
   /* fonts */
-
 .main-heading {
   font-family: "Timmana", serif;
-  font-weight: 600;
-  font-size: 2.5em;
+  font-weight: 800;
+  font-size: 3em;
   font-style: normal;
-  letter-spacing: 10px;
+  letter-spacing: 8px;
+  color: #F9E8C9;
 }
 
 tr#planets {
@@ -22,12 +50,13 @@ tr#planets {
 tr td.planet-property {
   padding-left: 5px;
   font-family: "IBM Plex Mono", serif;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1.25em;
   font-style: normal;
 }
 
 tr td.planet-value {
   font-family: "IBM Plex Mono", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }

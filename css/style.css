@@ -2,3 +2,32 @@ td, th {
 	border: 1px solid;
   }
   
+  /* fonts */
+
+.main-heading {
+  font-family: "Timmana", serif;
+  font-weight: 600;
+  font-size: 2.5em;
+  font-style: normal;
+  letter-spacing: 10px;
+}
+
+tr#planets {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+tr td.planet-property {
+  padding-left: 5px;
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+tr td.planet-value {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
